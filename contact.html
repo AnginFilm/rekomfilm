@@ -100,18 +100,28 @@
             <p>Silakan gunakan formulir di bawah ini untuk menghubungi tim RekomFilm. Kami senang menerima pertanyaan, saran, kritik membangun, atau tawaran kerja sama.</p>
 
             <!-- Form Kontak -->
-            <form action="https://formspree.io/f/your-id-di-sini" method="POST" class="contact-form">
-                <label for="nama">Nama:</label>
-                <input type="text" id="nama" name="nama" required />
+          <form action="https://formsubmit.co/bayuwidiantoro167@gmail.com" method="POST" class="contact-form">
+  <label for="nama">Nama:</label>
+  <input type="text" id="nama" name="nama" required />
 
-                <label for="email">Email:</label>
-                <input type="email" id="email" name="_replyto" required />
+  <label for="email">Email:</label>
+  <input type="email" id="email" name="email" required />
 
-                <label for="pesan">Pesan:</label>
-                <textarea id="pesan" name="pesan" rows="6" required></textarea>
+  <label for="pesan">Pesan:</label>
+  <textarea id="pesan" name="pesan" rows="6" required></textarea>
 
-                <button type="submit">Kirim Pesan</button>
-            </form>
+  <!-- Anti-spam -->
+  <input type="text" name="_honey" style="display:none">
+  
+  <!-- Nonaktifkan CAPTCHA -->
+  <input type="hidden" name="_captcha" value="false">
+
+  <!-- Redirect setelah sukses -->
+  <input type="hidden" name="_next" value="https://rekomfilm.com/terimakasih.html">
+
+  <button type="submit">Kirim Pesan</button>
+</form>
+
 
             <p><strong>Catatan:</strong> Kami menjaga privasi Anda. Data yang Anda kirim hanya digunakan untuk keperluan komunikasi dan tidak akan dibagikan kepada pihak ketiga.</p>
         </article>
