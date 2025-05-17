@@ -219,18 +219,6 @@ footer p {
   margin: auto;
 }
 /*judul halaman menu*/
-.page-header {
-    max-width: 900px;
-  margin: 0 auto;
-  text-align: center;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  color: #111;
-}
-
-.page-header-content {
-  padding: 0 1rem;
-}
-
 .page-title {
   font-size: 2.5rem;
   font-weight: 700;
@@ -300,7 +288,7 @@ footer p {
   padding: 1.2rem;
 }
 
-.card-content h3 {
+.card-content h2 {
   font-size: 1.3rem;
   margin-bottom: 0.6rem;
   color: #111;
