@@ -1261,3 +1261,59 @@ footer p {
   border-left-color: #27ae60;
   border-top-color: #27ae60;
 }
+/* Default read-more button */
+.read-more {
+  display: inline-block;
+  margin-top: 1rem;
+  padding: 0.5rem 1rem;
+  background-color: #f39c12; /* default warna */
+  color: white;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 0.9rem;
+  transition: background 0.3s ease, transform 0.2s;
+}
+
+/* Hover efek default */
+.read-more:hover {
+  transform: translateY(-2px);
+}
+
+/* WARNA TOMBOL MENYESUAIKAN WARNA GARIS CARD */
+
+/* Rekomendasi (orange) */
+.card-rekomendasi .read-more {
+  background-color: #f39c12;
+}
+
+.card-rekomendasi .read-more:hover {
+  background-color: #e67e22;
+}
+
+/* Fakta (biru) */
+.card-fakta .read-more {
+  background-color: #2980b9;
+}
+
+.card-fakta .read-more:hover {
+  background-color: #2471a3;
+}
+
+/* Teori (ungu) */
+.card-teori .read-more {
+  background-color: #8e44ad;
+}
+
+.card-teori .read-more:hover {
+  background-color: #7d3c98;
+}
+
+/* Ulasan (hijau) */
+.card-ulasan .read-more {
+  background-color: #27ae60;
+}
+
+.card-ulasan .read-more:hover {
+  background-color: #1e8449;
+}
