@@ -1167,23 +1167,53 @@ footer p {
   border-top-color: #27ae60;
 }
 /* Default read-more button */
+/* Default read-more style tetap */
 .read-more {
   display: inline-block;
   margin-top: 1rem;
   padding: 0.5rem 1rem;
-  background-color: #f39c12; /* default warna */
-  color: white;
   border-radius: 6px;
   text-decoration: none;
   font-weight: 600;
   font-size: 0.9rem;
   transition: background 0.3s ease, transform 0.2s;
+  color: white;
+  background-color: #555; /* default warna */
 }
 
-/* Hover efek default */
-.read-more:hover {
-  transform: translateY(-2px);
+/* Kategori warna tombol */
+.btn-fakta {
+  background-color: #2980b9;
 }
+
+.btn-fakta:hover {
+  background-color: #2471a3;
+}
+
+.btn-rekomendasi {
+  background-color: #f39c12;
+}
+
+.btn-rekomendasi:hover {
+  background-color: #e67e22;
+}
+
+.btn-teori {
+  background-color: #8e44ad;
+}
+
+.btn-teori:hover {
+  background-color: #7d3c98;
+}
+
+.btn-ulasan {
+  background-color: #27ae60;
+}
+
+.btn-ulasan:hover {
+  background-color: #1e8449;
+}
+
 
 /* WARNA TOMBOL MENYESUAIKAN WARNA GARIS CARD */
 
@@ -1222,38 +1252,7 @@ footer p {
 .card-ulasan .read-more:hover {
   background-color: #1e8449;
 }
-/* Kategori warna tombol */
-.btn-fakta {
-  background-color: #2980b9;
-}
 
-.btn-fakta:hover {
-  background-color: #2471a3;
-}
-
-.btn-rekomendasi {
-  background-color: #f39c12;
-}
-
-.btn-rekomendasi:hover {
-  background-color: #e67e22;
-}
-
-.btn-teori {
-  background-color: #8e44ad;
-}
-
-.btn-teori:hover {
-  background-color: #7d3c98;
-}
-
-.btn-ulasan {
-  background-color: #27ae60;
-}
-
-.btn-ulasan:hover {
-  background-color: #1e8449;
-}
 .category-intro {
   max-width: 800px;
   margin: 2rem auto;
