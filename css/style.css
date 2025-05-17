@@ -265,6 +265,15 @@ footer p {
     font-size: 0.95rem;
   }
 }
+.page-header-content::after {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 4px;
+  background-color: #ffc107; /* kuning modern seperti tombol */
+  margin: 2rem auto 1rem;
+  border-radius: 2px;
+}
 
 
 .content-grid h2 {
