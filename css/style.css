@@ -290,18 +290,18 @@ footer p {
 /* Tombol link ke menu */
 .read-more {
   display: inline-block;
-  margin-top: 0.5rem;
-  font-weight: 600;
-  color: #f39c12;
+  margin-top: 1rem;
+  padding: 0.5rem 1rem;
+  border-radius: 6px;
   text-decoration: none;
-  border-bottom: 2px solid transparent;
-  transition: all 0.3s ease;
+  font-weight: 600;
+  font-size: 0.9rem;
+  transition: background 0.3s ease, transform 0.2s;
+  color: white;
+  background-color: #555; /* default warna */
 }
 
-.read-more:hover {
-  border-bottom: 2px solid #f39c12;
-  transform: translateX(4px);
-}
+
 
 /* Judul tengah */
 .card-content h3 {
@@ -1222,7 +1222,38 @@ footer p {
 .card-ulasan .read-more:hover {
   background-color: #1e8449;
 }
+/* Kategori warna tombol */
+.btn-fakta {
+  background-color: #2980b9;
+}
 
+.btn-fakta:hover {
+  background-color: #2471a3;
+}
+
+.btn-rekomendasi {
+  background-color: #f39c12;
+}
+
+.btn-rekomendasi:hover {
+  background-color: #e67e22;
+}
+
+.btn-teori {
+  background-color: #8e44ad;
+}
+
+.btn-teori:hover {
+  background-color: #7d3c98;
+}
+
+.btn-ulasan {
+  background-color: #27ae60;
+}
+
+.btn-ulasan:hover {
+  background-color: #1e8449;
+}
 .category-intro {
   max-width: 800px;
   margin: 2rem auto;
