@@ -1224,7 +1224,7 @@ footer p {
 
 .page-header-content {
   max-width: 800px;
-  margin: 3rem auto 2rem;
+  margin: 2rem auto 1rem;
   padding: 0 1rem;
   text-align: center;
 }
@@ -1247,6 +1247,7 @@ footer p {
 .page-description {
   font-size: 1rem;
   color: #555;
+   margin-bottom: 1.5rem;
   line-height: 1.6;
 }
 .page-header-content {
