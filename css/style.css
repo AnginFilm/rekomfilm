@@ -1221,3 +1221,22 @@ footer p {
 .card-ulasan .read-more:hover {
   background-color: #1e8449;
 }
+
+.page-header-content {
+  max-width: 800px;
+  margin: 3rem auto 2rem;
+  padding: 0 1rem;
+  text-align: center;
+}
+
+.page-title {
+  font-size: 2rem;
+  color: #111;
+  margin-bottom: 0.5rem;
+}
+
+.page-description {
+  font-size: 1rem;
+  color: #555;
+  line-height: 1.6;
+}
