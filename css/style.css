@@ -115,11 +115,14 @@ header {
 
 /* BREADCRUMB */
 .breadcrumb {
-  background-color: #f5f5f5;
-  padding: 0.75rem 2rem;
   font-size: 0.9rem;
-  color: #555;
+  color: #777;
+  margin: 1rem auto;
+  max-width: 1200px;
+  padding: 0.5rem 1rem;
   border-bottom: 1px solid #ddd;
+  background: none;
+  text-align: left;
 }
 
 .breadcrumb .current {
