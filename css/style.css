@@ -218,6 +218,46 @@ footer p {
   max-width: 1200px;
   margin: auto;
 }
+/*judul halaman menu*/
+.page-header {
+  padding: 2rem 1rem;
+  max-width: 900px;
+  margin: 0 auto;
+  text-align: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #222;
+}
+
+.page-header-content {
+  padding: 0 1rem;
+}
+
+.page-title {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+  letter-spacing: 1.2px;
+  color: #111;
+  line-height: 1.2;
+}
+
+.page-description {
+  font-size: 1.125rem;
+  color: #555;
+  max-width: 650px;
+  margin: 0 auto;
+  line-height: 1.6;
+}
+
+@media (max-width: 600px) {
+  .page-title {
+    font-size: 1.8rem;
+  }
+  .page-description {
+    font-size: 1rem;
+    max-width: 100%;
+  }
+}
 
 .content-grid h2 {
   text-align: center;
