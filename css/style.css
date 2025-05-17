@@ -220,12 +220,11 @@ footer p {
 }
 /*judul halaman menu*/
 .page-header {
-  padding: 2rem 1rem;
-  max-width: 900px;
+    max-width: 900px;
   margin: 0 auto;
   text-align: center;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  color: #222;
+  color: #111;
 }
 
 .page-header-content {
@@ -243,7 +242,7 @@ footer p {
 
 .page-description {
   font-size: 1.125rem;
-  color: #555;
+  color: #111;
   max-width: 650px;
   margin: 0 auto;
   line-height: 1.6;
