@@ -813,7 +813,7 @@ footer p {
   font-size: 0.9rem;
   transition: background 0.3s ease, transform 0.2s;
   color: white;
-  background-color: #555; /* default warna */
+
 }
 
 .film-content .read-more .btn-fakta {
