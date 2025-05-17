@@ -219,32 +219,53 @@ footer p {
   margin: auto;
 }
 /*judul halaman menu*/
+.page-header-content {
+  padding: 2rem 1rem;
+  max-width: 960px;
+  margin: 0 auto;
+  text-align: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #222;
+}
+
 .page-title {
   font-size: 2.5rem;
   font-weight: 700;
-  margin-bottom: 0.5rem;
-  letter-spacing: 1.2px;
   color: #111;
-  line-height: 1.2;
+  margin-bottom: 0.5rem;
+  line-height: 1.3;
+  letter-spacing: 1px;
 }
 
 .page-description {
   font-size: 1.125rem;
-  color: #111;
-  max-width: 650px;
+  color: #555;
+  max-width: 720px;
   margin: 0 auto;
-  line-height: 1.6;
+  line-height: 1.7;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 768px) {
   .page-title {
-    font-size: 1.8rem;
+    font-size: 2rem;
   }
+
   .page-description {
     font-size: 1rem;
-    max-width: 100%;
+    padding: 0 0.5rem;
   }
 }
+
+@media (max-width: 480px) {
+  .page-title {
+    font-size: 1.6rem;
+  }
+
+  .page-description {
+    font-size: 0.95rem;
+  }
+}
+
 
 .content-grid h2 {
   text-align: center;
