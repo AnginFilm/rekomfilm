@@ -1249,3 +1249,21 @@ footer p {
   color: #555;
   line-height: 1.6;
 }
+.page-header-content {
+  max-width: 800px;
+  margin: 3rem auto 2rem;
+  padding: 0 1rem;
+  text-align: center;
+  border-bottom: 2px solid #eee;
+  position: relative;
+}
+
+.page-header-content::before {
+  content: "";
+  display: block;
+  width: 80px;
+  height: 3px;
+  background: linear-gradient(90deg, #f39c12, #f1c40f);
+  margin: 0 auto 1rem;
+  border-radius: 2px;
+}
