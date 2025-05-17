@@ -1234,6 +1234,15 @@ footer p {
   color: #111;
   margin-bottom: 0.5rem;
 }
+@media (max-width: 768px) {
+  .page-title {
+    font-size: 1.5rem;
+  }
+
+  .page-description {
+    font-size: 0.95rem;
+  }
+}
 
 .page-description {
   font-size: 1rem;
