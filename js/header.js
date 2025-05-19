@@ -22,16 +22,18 @@ function createHeader() {
 }
 createHeader();
 
-// Hamburger functionality
+// Fungsi toggle menu yang lebih robust
 document.addEventListener('DOMContentLoaded', function() {
-    const hamburger = document.getElementById('hamburger');
-    const navMenu = document.getElementById('nav-menu');
+  const hamburger = document.getElementById('hamburger');
+  const navMenu = document.getElementById('nav-menu');
 
-    if (hamburger && navMenu) {
-        hamburger.addEventListener('click', function() {
-            const isExpanded = this.getAttribute('aria-expanded') === 'true';
-            this.setAttribute('aria-expanded', !isExpanded);
-            navMenu.style.display = isExpanded ? 'none' : 'block';
-        });
-    }
+  if (hamburger && navMenu) {
+    hamburger.addEventListener('click', function() {
+      navMenu.classList.toggle('active');
+      this.setAttribute(
+        'aria-expanded', 
+        navMenu.classList.contains('active')
+      );
+    });
+  }
 });
