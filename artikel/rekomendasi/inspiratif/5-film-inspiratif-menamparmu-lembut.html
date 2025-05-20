@@ -292,41 +292,37 @@
 </div>
 
             <!-- COMMENT SECTION -->
-      <div class="comment-section" id="comment-section">
+            <div class="comment-section" id="comment-section">
                 <h3>Komentar Pembaca</h3>
-                <p class="comment-note">Silakan tinggalkan komentar Anda tentang Rekomendasi film favorit</p>
-
+                <p class="comment-note">Silakan tinggalkan komentar Anda tentang rekomendasi film di atas, mana menurut anda yang paling menginspirasi?</p>
                 <!-- Komentar Disqus -->
                <div id="disqus_thread"></div>
-<script>
-    /**
-    *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
-    *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables    */
-    
-    var disqus_config = function () {
-        // URL spesifik yang diizinkan
-        const allowedUrl = 'https://rekomfilm.com/artikel/rekomendasi/inspiratif/5-film-inspiratif-menamparmu-lembut.html';
+ <script>
+        var disqus_config = function () {
+            // Konfigurasi spesifik artikel ini
+            this.page.url = 'https://rekomfilm.com/artikel/rekomendasi/inspiratif/5-film-inspiratif-menamparmu-lembut.html';
+            this.page.identifier = '5-film-inspiratif-menamparmu-lembut'; // Harus unik per artikel!
+            this.page.title = '5 Film Inspiratif yang Menamparmu Lembut | Rekomfilm';
+            
+            // Optional: Settings untuk indonesian language
+            this.language = 'id';
+        };
         
-        if (window.location.href === allowedUrl) {
-            this.page.url = allowedUrl;  // URL halaman yang tepat
-            this.page.identifier = '/artikel/rekomendasi/inspiratif/5-film-inspiratif-menamparmu-lembut.html'; // Identifier unik
-        } else {
-            // Nonaktifkan Disqus untuk halaman lain
-            this.page.url = 'about:blank';
-            this.page.identifier = 'disabled-' + Date.now();
-            return; // Keluar dari fungsi untuk halaman non-target
-        }
-    };
-    
-    (function() { // DON'T EDIT BELOW THIS LINE
-        var d = document, s = d.createElement('script');
-        s.src = 'https://rekomfilm.com.disqus.com/embed.js';
-        s.setAttribute('data-timestamp', +new Date());
-        (d.head || d.body).appendChild(s);
-    })();
-</script>
-<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-            </div>
+        (function() {
+            var d = document, s = d.createElement('script');
+            s.src = 'https://rekomfilm-com.disqus.com/embed.js';
+            s.setAttribute('data-timestamp', +new Date());
+            s.setAttribute('data-tracking', 'enable');
+            (d.head || d.body).appendChild(s);
+        })();
+    </script>
+    <noscript>
+        <div class="noscript-notice">
+            🔒 Komentar hanya tampil dengan JavaScript aktif. 
+            <a href="https://disqus.com/?ref_noscript" rel="nofollow">Klik di sini</a> untuk melihat diskusi via platform Disqus.
+        </div>
+    </noscript>
+</div>
         </article>
 
         <aside class="sidebar auto-sidebar">
