@@ -405,20 +405,34 @@
                 </div>
 
                 <!-- Komentar Disqus -->
-                <div id="disqus_thread"></div>
-                <script>
-                    var disqus_config = function () {
-                        this.page.url = 'https://rekomfilm.com/artikel/rekomendasi/inspiratif/7-film-inspiratif-menguatkan-mentalmu.html';
-                        this.page.identifier = '7-film-inspiratif-menguatkan-mentalmu';
-                    };
-                    (function () {
-                        var d = document, s = d.createElement('script');
-                        s.src = 'https://rekomfilm.com.disqus.com/embed.js';
-                        s.setAttribute('data-timestamp', +new Date());
-                        (d.head || d.body).appendChild(s);
-                    })();
-                </script>
-                <noscript>Please enable JavaScript to view the comments powered by Disqus.</noscript>
+              <!-- Bagian Komentar Disqus -->
+<h3 class="comments-title">Diskusi Film</h3>
+<div class="disqus-container">
+    <div id="disqus_thread"></div>
+    <noscript>
+        Mohon aktifkan JavaScript untuk melihat komentar. 
+        <a href="https://disqus.com/?ref_noscript">Komentar didukung oleh Disqus.</a>
+    </noscript>
+</div>
+
+<script>
+    /**
+     *  KONFIGURASI DISQUS
+     */
+    var disqus_config = function () {
+        // Ganti 'rekomfilm' dengan nama forum Disqus Anda
+        this.page.url = 'https://rekomfilm.com/artikel/rekomendasi/inspiratif/7-film-inspiratif-menguatkan-mentalmu.html'; 
+        this.page.identifier = '7-film-inspiratif-menguatkan-mentalmu'; // ID unik artikel
+        this.page.title = '7 Film Inspiratif yang Diam-Diam Menguatkan Mentalmu';
+    };
+
+    (function() {
+        var d = document, s = d.createElement('script');
+        s.src = 'https://rekomfilm.com.disqus.com/embed.js'; // Ganti 'rekomfilm' dengan nama forum Anda
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
 
         </article>
 
