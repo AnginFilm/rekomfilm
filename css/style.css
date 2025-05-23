@@ -1365,4 +1365,57 @@ footer p {
 .filter-btn:hover {
   opacity: 0.85;
 }
+.article-tags {
+  margin: 2rem 0 1rem;
+  padding: 0 1rem;
+}
 
+.article-tags h4 {
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+  color: #333;
+}
+
+.tag {
+  display: inline-block;
+  margin: 0 0.5rem 0.5rem 0;
+  padding: 0.3rem 0.8rem;
+  border-radius: 4px;
+  font-size: 0.85rem;
+  font-weight: 500;
+  text-decoration: none;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  color: #fff;
+}
+
+/* Rekomendasi (Oranye) */
+.tag-rekomendasi {
+  background-color: #f39c12;
+}
+.tag-rekomendasi:hover {
+  background-color: #e67e22;
+}
+
+/* Fakta Unik (Biru) */
+.tag-fakta {
+  background-color: #2980b9;
+}
+.tag-fakta:hover {
+  background-color: #2471a3;
+}
+
+/* Teori Film (Ungu) */
+.tag-teori {
+  background-color: #8e44ad;
+}
+.tag-teori:hover {
+  background-color: #7d3c98;
+}
+
+/* Ulasan & Alur (Hijau) */
+.tag-ulasan {
+  background-color: #27ae60;
+}
+.tag-ulasan:hover {
+  background-color: #1e8449;
+}
