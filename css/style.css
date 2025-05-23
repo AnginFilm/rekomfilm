@@ -1425,3 +1425,33 @@ footer p {
   display: inline-block;
   text-align: left;
 }
+@media (max-width: 768px) {
+  .film-card {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .film-thumbnail {
+    width: 100%;
+    height: auto;
+  }
+
+  .film-thumbnail img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+
+  .film-content {
+    text-align: left;
+    padding-top: 0.5rem;
+  }
+
+  .film-content h2,
+  .film-content .artikel-desc,
+  .film-content .artikel-date,
+  .film-content .read-more {
+    text-align: left;
+  }
+}
