@@ -91,51 +91,53 @@
                     <p><strong>Alur Cerita Film Tanpa Spoiler Berat-</strong>Membaca ringkasan alur tak pernah semenarik ini. Rasakan kembali adegan yang mengguncang! </p>
                     </div>
             </article>
-       <section id="featured-categories" class="content-grid">
-              <div class="grid-container">
-          <div class="grid-card card-ulasan" itemscope itemtype="https://schema.org/CreativeWork">
-                     <div class="card-content">
-              <h2 itemprop="headline">FILM HOLLYWOOD</h2>
-              <p itemprop="description">Dari blockbuster ke film festival, simak ulasan film Hollywood paling
-                mengguncang!</p>
-              <ul class="category-highlights">
-                <li>🎬 Sinopsis padat dan tajam</li>
-                <li>🏆 Pemenang penghargaan dunia</li>
-                <li>🔍 Pembacaan simbolik</li>
-              </ul>
-              <a href="halaman/ulasan-alur/hollywood.html" class="read-more btn-ulasan" itemprop="url">LIHAT ULASAN →</a>
-            </div>
-          </div>
+     <!--Daftar Artikel-->      
+         <section class="film-listings" id="film-container">
+                <!-- Di sini tempel semua artikel dari all-post.html -->
+                <article class="film-card">
+                    <div class="film-thumbnail">
+                        <img src="/images/rekomendasi/obat-depresi/list-cover-film-obat-depresi.jpg"
+                            alt="Kolase 5 film tentang depresi dan penyembuhan: The Perks of Being a Wallflower, It's Kind of a Funny Story, Silver Linings Playbook, Inside Out, A Man Called Otto"
+                            loading="lazy" />
+                    </div>
+                    <div class="film-content">
+                        <a href="/artikel/rekomendasi/obat-depresi/5-film-obat-depresi.html">
+                            <h2>5 Film Obat Depresi yang Diam-Diam Menyelamatkan Hidup Orang Tanpa Mereka
+                                Sadari</h2>
+                        </a>
+                        <p class="artikel-teaser">"Craig nyaris bunuh diri, tapi justru menemukan harapan di
+                            bangsal rumah
+                            sakit jiwa. Empat film lainnya? Diam-diam bisa jadi alasan kamu bertahan satu
+                            hari lagi."</p>
+                        <p class="artikel-date">📅 <em>Update: 23 Mei 2025</em></p>
+                        <a href="/artikel/rekomendasi/obat-depresi/5-film-obat-depresi.html"
+                            class="read-more btn-alur">LIHAT ULASAN →</a>
+                    </div>
+                </article>
 
-          <div class="grid-card card-ulasan" itemscope itemtype="https://schema.org/CreativeWork">
-                     <div class="card-content">
-              <h2 itemprop="headline">FILM INDONESIA</h2>
-              <p itemprop="description">Film tanah air yang semakin tajam dan menggigit, simak ulasan dari berbagai
-                sudut pandang!</p>
-              <ul class="category-highlights">
-                <li>🌏 Cerita lokal yang mendunia</li>
-                <li>📽️ Interpretasi visual dan tema</li>
-                <li>🎭 Akting dan dialog yang hidup</li>
-              </ul>
-              <a href="halaman/ulasan-alur/indonesia.html" class="read-more btn-ulasan" itemprop="url">LIHAT ULASAN →</a>
-            </div>
-          </div>
-
-          <div class="grid-card card-ulasan" itemscope itemtype="https://schema.org/CreativeWork">
-                    <div class="card-content">
-              <h3 itemprop="headline">FILM KOREA</h3>
-              <p itemprop="description">Karya sinematik dari Korea yang terus mencuri perhatian dunia. Alurnya bikin
-                deg-degan!</p>
-              <ul class="category-highlights">
-                <li>🧠 Cerita penuh intrik</li>
-                <li>💣 Cerita emosional dan psikologis</li>
-                <li>👁️‍🗨️ Analisis adegan ikonik</li>
-              </ul>
-              <a href="halaman/ulasan-alur/film-korea.html" class="read-more btn-ulasan" itemprop="url">LIHAT ULASAN →</a>
-            </div>
-          </div>
-        </div>
-      </section>
+                <!--NEXT ARTIKEL-->             
+            </section>
+            <div id="pagination" class="film-pagination"></div>
+               <div class="grid-container">
+                    <section class="category-filter" id="category-filter">
+                        <h2>Pilih Artikel Rekomendasi FIlm Berdasarkan Tag:</h2>
+                        <div class="filter-buttons">
+                            <a href="/halaman/ulasan-alur/film-korea.html" class="filter-btn btn-alur">Film Korea</a>
+                          <a href="/halaman/ulasan-alur/hollywood.html" class="filter-btn btn-alur">Hollywood</a>
+                          <a href="/halaman/ulasan-alur/indonesia.html" class="filter-btn btn-alur">Indonesia</a>
+                                                                                                   
+                        </div>
+                    </section>
+                </div> 
+            <section class="category-filter" id="category-filter">
+             <h3>Semua Kategori RekomFilm:</h3>
+                <div class="filter-buttons">
+                    <a href="menu-rekomendasi.html" class="filter-btn btn-rekomendasi">🎬 Rekomendasi</a>
+                    <a href="menu-fakta-unik.html" class="filter-btn btn-fakta">🤯 Fakta Unik</a>
+                    <a href="menu-teori-film.html" class="filter-btn btn-teori">🧠 Teori Film</a>
+                    <a href="menu-ulasan-alur.html" class="filter-btn btn-ulasan">🎥 Ulasan & Alur</a>
+                </div>
+            </section>
     </article>
 
     <aside class="sidebar auto-sidebar"></aside>
