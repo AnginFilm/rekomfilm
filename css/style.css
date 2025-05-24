@@ -1462,3 +1462,22 @@ footer p {
   padding: 0.75rem;
   color: #333;
 }
+
+.article-explore-more {
+  margin-top: 2.5rem;
+  padding: 0 1rem;
+  text-align: center;
+}
+
+.article-explore-more h4 {
+  font-size: 1rem;
+  margin-bottom: 1rem;
+  color: #444;
+}
+
+.explore-btn-group {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.75rem;
+}
